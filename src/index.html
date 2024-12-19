@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuture Vibes | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="divider" id="main-header"></header>
+
+    <main class="divider">
+      <div class="hero">
+          <img
+              src="public/images/banner1.jpg"
+              srcset="images/banner-sm.jpg 500w, images/banner1.jpg"
+              alt="image of a high mountain lake"
+          />
+      </div>
+  
+      <section class="mission">
+          <p>Feeling the Nuture: More Than Just Decoration</p>
+          <p></p>
+          <p>
+            Bringing plants into your home is more than just a decoration trend; it's a lifestyle choice that connects you with nature. Each plant has its own personality, needs, and benefits. While some thrive with minimal care, others require a bit more attention to flourish. Whether you're a seasoned plant parent or just starting your green journey, we're here to make it easier. Explore our tips, tricks, and resources to create a thriving indoor garden that purifies the air, boosts your mood, and transforms your space into a green sanctuary.
+          </p>
+      </section>
+      <h1>Plant Search</h1>
+      <form id="plant-search-form">
+          <input type="text" id="plant-search-input" placeholder="Search Palm, Dracaena, etc" />
+          <button type="submit">Search</button>
+      </form>
+      <div id="alert-message"></div>
+      <div id="results" class="plant-container"></div>
+  </main>
+  
+    <footer id="main-footer"></footer>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/search.js"></script>
+  </body>
+</html>
